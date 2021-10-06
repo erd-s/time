@@ -11,7 +11,41 @@
 		0C3F0A3B270C5E4C00F8FC7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F0A3A270C5E4C00F8FC7D /* ContentView.swift */; };
 		0C3F0A3D270C5E4D00F8FC7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3F0A3C270C5E4D00F8FC7D /* Assets.xcassets */; };
 		0C3F0A40270C5E4D00F8FC7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3F0A3F270C5E4D00F8FC7D /* Preview Assets.xcassets */; };
+		0C3F0A47270C5F9B00F8FC7D /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F0A46270C5F9B00F8FC7D /* UserDefaults+Extension.swift */; };
+		0C444CC1270E457800BDEB23 /* HiddenViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C444CC0270E457800BDEB23 /* HiddenViewModifier.swift */; };
+		0C444CE1270E55EC00BDEB23 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C444CC8270E549800BDEB23 /* WidgetKit.framework */; };
+		0C444CE2270E55EC00BDEB23 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C444CCA270E549800BDEB23 /* SwiftUI.framework */; };
+		0C444CE5270E55EC00BDEB23 /* DaysGoneByWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C444CE4270E55EC00BDEB23 /* DaysGoneByWidget.swift */; };
+		0C444CE8270E55ED00BDEB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C444CE7270E55ED00BDEB23 /* Assets.xcassets */; };
+		0C444CEE270E55ED00BDEB23 /* DaysGoneByWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0C444CE0270E55EC00BDEB23 /* DaysGoneByWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0C444CF3270E568400BDEB23 /* TimeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C444CF2270E568400BDEB23 /* TimeContainer.swift */; };
+		0C444CF4270E568400BDEB23 /* TimeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C444CF2270E568400BDEB23 /* TimeContainer.swift */; };
+		0C444CF5270E56E000BDEB23 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F0A46270C5F9B00F8FC7D /* UserDefaults+Extension.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C444CEC270E55ED00BDEB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C3F0A2D270C5E4C00F8FC7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C444CDF270E55EC00BDEB23;
+			remoteInfo = DaysGoneByWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C444CDB270E549A00BDEB23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0C444CEE270E55ED00BDEB23 /* DaysGoneByWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C3F0A35270C5E4C00F8FC7D /* Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +53,18 @@
 		0C3F0A3A270C5E4C00F8FC7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C3F0A3C270C5E4D00F8FC7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C3F0A3F270C5E4D00F8FC7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C3F0A46270C5F9B00F8FC7D /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		0C3F0A48270C615F00F8FC7D /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0C444CC0270E457800BDEB23 /* HiddenViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenViewModifier.swift; sourceTree = "<group>"; };
+		0C444CC8270E549800BDEB23 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0C444CCA270E549800BDEB23 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0C444CE0270E55EC00BDEB23 /* DaysGoneByWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DaysGoneByWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C444CE4270E55EC00BDEB23 /* DaysGoneByWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysGoneByWidget.swift; sourceTree = "<group>"; };
+		0C444CE7270E55ED00BDEB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C444CE9270E55ED00BDEB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C444CF2270E568400BDEB23 /* TimeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeContainer.swift; sourceTree = "<group>"; };
+		0C444CF6270E5C7A00BDEB23 /* Time.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Time.entitlements; sourceTree = "<group>"; };
+		0C444CF7270E5C9800BDEB23 /* DaysGoneByWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DaysGoneByWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +75,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C444CDD270E55EC00BDEB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C444CE2270E55EC00BDEB23 /* SwiftUI.framework in Frameworks */,
+				0C444CE1270E55EC00BDEB23 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0C3F0A2C270C5E4C00F8FC7D = {
 			isa = PBXGroup;
 			children = (
+				0C444CF7270E5C9800BDEB23 /* DaysGoneByWidgetExtension.entitlements */,
+				0C3F0A48270C615F00F8FC7D /* Playground.playground */,
 				0C3F0A37270C5E4C00F8FC7D /* Time */,
+				0C444CE3270E55EC00BDEB23 /* DaysGoneByWidget */,
+				0C444CC7270E549800BDEB23 /* Frameworks */,
 				0C3F0A36270C5E4C00F8FC7D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0C3F0A35270C5E4C00F8FC7D /* Time.app */,
+				0C444CE0270E55EC00BDEB23 /* DaysGoneByWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +111,14 @@
 		0C3F0A37270C5E4C00F8FC7D /* Time */ = {
 			isa = PBXGroup;
 			children = (
+				0C444CF6270E5C7A00BDEB23 /* Time.entitlements */,
 				0C3F0A38270C5E4C00F8FC7D /* TimeApp.swift */,
 				0C3F0A3A270C5E4C00F8FC7D /* ContentView.swift */,
+				0C444CF2270E568400BDEB23 /* TimeContainer.swift */,
+				0C444CC0270E457800BDEB23 /* HiddenViewModifier.swift */,
 				0C3F0A3C270C5E4D00F8FC7D /* Assets.xcassets */,
 				0C3F0A3E270C5E4D00F8FC7D /* Preview Content */,
+				0C3F0A46270C5F9B00F8FC7D /* UserDefaults+Extension.swift */,
 			);
 			path = Time;
 			sourceTree = "<group>";
@@ -67,6 +131,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0C444CC7270E549800BDEB23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C444CC8270E549800BDEB23 /* WidgetKit.framework */,
+				0C444CCA270E549800BDEB23 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C444CE3270E55EC00BDEB23 /* DaysGoneByWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0C444CE4270E55EC00BDEB23 /* DaysGoneByWidget.swift */,
+				0C444CE7270E55ED00BDEB23 /* Assets.xcassets */,
+				0C444CE9270E55ED00BDEB23 /* Info.plist */,
+			);
+			path = DaysGoneByWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +160,34 @@
 				0C3F0A31270C5E4C00F8FC7D /* Sources */,
 				0C3F0A32270C5E4C00F8FC7D /* Frameworks */,
 				0C3F0A33270C5E4C00F8FC7D /* Resources */,
+				0C444CDB270E549A00BDEB23 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0C444CED270E55ED00BDEB23 /* PBXTargetDependency */,
 			);
 			name = Time;
 			productName = Time;
 			productReference = 0C3F0A35270C5E4C00F8FC7D /* Time.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0C444CDF270E55EC00BDEB23 /* DaysGoneByWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C444CEF270E55ED00BDEB23 /* Build configuration list for PBXNativeTarget "DaysGoneByWidgetExtension" */;
+			buildPhases = (
+				0C444CDC270E55EC00BDEB23 /* Sources */,
+				0C444CDD270E55EC00BDEB23 /* Frameworks */,
+				0C444CDE270E55EC00BDEB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaysGoneByWidgetExtension;
+			productName = DaysGoneByWidgetExtension;
+			productReference = 0C444CE0270E55EC00BDEB23 /* DaysGoneByWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +200,9 @@
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					0C3F0A34270C5E4C00F8FC7D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0C444CDF270E55EC00BDEB23 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -116,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				0C3F0A34270C5E4C00F8FC7D /* Time */,
+				0C444CDF270E55EC00BDEB23 /* DaysGoneByWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +236,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C444CDE270E55EC00BDEB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C444CE8270E55ED00BDEB23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +252,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3F0A3B270C5E4C00F8FC7D /* ContentView.swift in Sources */,
+				0C3F0A47270C5F9B00F8FC7D /* UserDefaults+Extension.swift in Sources */,
+				0C444CC1270E457800BDEB23 /* HiddenViewModifier.swift in Sources */,
+				0C444CF3270E568400BDEB23 /* TimeContainer.swift in Sources */,
 				0C3F0A39270C5E4C00F8FC7D /* TimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C444CDC270E55EC00BDEB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C444CE5270E55EC00BDEB23 /* DaysGoneByWidget.swift in Sources */,
+				0C444CF4270E568400BDEB23 /* TimeContainer.swift in Sources */,
+				0C444CF5270E56E000BDEB23 /* UserDefaults+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C444CED270E55ED00BDEB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C444CDF270E55EC00BDEB23 /* DaysGoneByWidgetExtension */;
+			targetProxy = 0C444CEC270E55ED00BDEB23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0C3F0A41270C5E4D00F8FC7D /* Debug */ = {
@@ -264,8 +399,10 @@
 		0C3F0A44270C5E4D00F8FC7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Time/Time.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
@@ -284,7 +421,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.erdos.Time;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Time;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,8 +431,10 @@
 		0C3F0A45270C5E4D00F8FC7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Time/Time.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
@@ -314,7 +453,63 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.erdos.Time;
+				PRODUCT_NAME = Time;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C444CF0270E55ED00BDEB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DaysGoneByWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95EZ83BDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaysGoneByWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotSmoking;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdos.Time.DaysGoneByWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C444CF1270E55ED00BDEB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DaysGoneByWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95EZ83BDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaysGoneByWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotSmoking;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdos.Time.DaysGoneByWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,6 +533,15 @@
 			buildConfigurations = (
 				0C3F0A44270C5E4D00F8FC7D /* Debug */,
 				0C3F0A45270C5E4D00F8FC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C444CEF270E55ED00BDEB23 /* Build configuration list for PBXNativeTarget "DaysGoneByWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C444CF0270E55ED00BDEB23 /* Debug */,
+				0C444CF1270E55ED00BDEB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
